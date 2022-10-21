@@ -1,0 +1,1075 @@
+17:20:13.614
+elastic_agent
+[elastic_agent][error] apm-server stderr: "fatal error: concurrent map read and map write\n"
+17:20:13.614
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ngoroutine 418 [running]:\nruntime.throw"
+17:20:13.614
+elastic_agent
+[elastic_agent][error] apm-server stderr: "({0x556e6b49aefa?, 0x0?})\n\truntime/panic.go:"
+17:20:13.614
+elastic_agent
+[elastic_agent][error] apm-server stderr: "992 +0x71 fp=0xc00159fc58 sp=0xc00159fc28 pc=0x556e694c6011\n"
+17:20:13.614
+elastic_agent
+[elastic_agent][error] apm-server stderr: "runtime.mapaccess2(0xc000d7c040?, "
+17:20:13.614
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xa?, 0x556e6b46165c?)\n\truntime/map.go:476 +0x205 fp=0xc00159fc98 sp=0xc00159fc58 pc=0x556e6949d825\n"
+17:20:13.614
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/elastic-agent-system-metrics/metric/system/process.(*Stats).pidFill(_"
+17:20:13.614
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", _, _)\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/metric/system/process/process.go:193 +0x6f7 fp="
+17:20:13.614
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc0015a0bb0 sp=0xc00159fc98 pc=0x556e6a6b2957\ngithub.com/elastic/elastic-agent-system-metrics/metric/system/process.(*Stats).GetSelf("
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "_)\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/metric/system/process/process.go:133 +0xc9 fp=0xc0015a1140 sp=0xc0015a0bb0 pc=0x556e6a6b1b29\ngithub.com/elastic/elastic-agent-system-metrics/report.InstanceCPUReporter.func1(0xa8?, {0x556e6c31f598, 0xc000eddc00}"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/report/report.go:68 +0x105 fp=0xc0015a16e8 sp=0xc0015a1140 pc=0x556e6a6bab45\n"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/elastic-agent-libs/monitoring.(*Func).Visit(0xc0015a1770?"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 0xfc?, {0x556e6c31f598?, 0xc000eddc00?})\n"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/metrics.go:221 +0x2e fp=0xc0015a1710 sp=0xc0015a16e8 pc="
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x556e69a2364e\n"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/elastic-agent-libs/monitoring.(*Registry).doVisit(0xc000032240, 0x1, {0x556e6c31f598, 0xc000eddc00}"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:83 +0x1c3 fp=0xc0015a17f0 sp=0xc0015a1710 pc="
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x556e69a25023\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).Visit(0xc0015a1880"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?, 0xa9?, {0x556e6c31f598?, 0xc000eddc00"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:65 +0x25 fp="
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc0015a1820 sp=0xc0015a17f0 pc=0x556e69a24e25\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).doVisit(0xc000050780, 0x1, {0x556e6c31f598"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 0xc000eddc00})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:83 +0x1c3 fp=0xc0015a1900 sp="
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc0015a1820 pc=0x556e69a25023\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).Visit(...)\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:65\n"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/elastic-agent-libs/monitoring.CollectStructSnapshot(0xc0000b2540?, 0x80?, 0x0)\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/snapshot.go:89 +0xcc fp=0xc0015a19c8 sp=0xc0015a1900 pc="
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x556e69a26a4c\ngithub.com/elastic/beats/v7/libbeat/api.makeAPIHandler.func1({0x556e6c3170a8, 0xc000790e00"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "}, 0xc001044c00)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/api/routes.go:74 +0xde fp=0xc0015a1a20"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: " sp=0xc0015a19c8 pc=0x556e6a50d27e\n"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net/http.HandlerFunc.ServeHTTP(0x7f4606bdb458?, {0x556e6c3170a8?, 0xc000790e00?}, 0x556e6949bec5?)\n"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tnet/http/server.go:2084 +0x2f fp=0xc0015a1a48 sp=0xc0015a1a20 pc=0x556e698df0af\nnet/http.(*ServeMux).ServeHTTP(0x0?, {0x556e6c3170a8, 0xc000790e00}, "
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc001044c00)\n\tnet/http/server.go:2462 +0x149 fp=0xc0015a1a98 sp=0xc0015a1a48 pc=0x556e698e0dc9\nnet/http.serverHandler.ServeHTTP"
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "({0xc0003462d0?}, {0x556e6c3170a8, 0xc000790e00}, 0xc001044c00)\n\tnet/http/server.go:2916 +0x43b fp="
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc0015a1b58 sp=0xc0015a1a98 pc=0x556e698e2a9b\nnet/http.(*conn).serve(0xc00026b360, {0x556e6c318770, "
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc00073e0f0})\n\tnet/http/server.go:1966 +0x5d7 fp=0xc0015a1fb8 sp="
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc0015a1b58 pc=0x556e698ddb57\nnet/http.(*Server).Serve.func3("
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\tnet/http/server.go:3071 +0x2e fp=0xc0015a1fe0 sp=0xc0015a1fb8 pc="
+17:20:13.615
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x556e698e34ce\n"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "runtime.goexit()\n\truntime/asm_amd64.s:1571"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x1 fp=0xc0015a1fe8 sp=0xc0015a1fe0 pc=0x556e694faa01\n"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "created by net/http.(*Server).Serve\n\tnet/http/server.go:3071 +0x4db\n\ngoroutine 1 [semacquire, 60 minutes]:\n"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "sync.runtime_Semacquire(0xc0000021a0?"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\truntime/sema.go:56 +0x25\nsync.(*WaitGroup).Wait(0xc000953458?)\n\tsync/waitgroup.go:"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "136 +0x52\ngolang.org/x/sync/errgroup.(*Group).Wait"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc000456400)\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:52 +0x27\n"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/beater.(*beater).run(0xc0006d6780, {0x556e6c3186c8?, 0xc000456380}, 0xc00035c590, 0xc000433500)\n\t"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/beater/beater.go:242 +0x779\ngithub.com/elastic/apm-server/beater.(*beater).Run(0xc0006d6780, 0x11?)\n\tgithub.com/elastic/apm-server/beater/beater.go:149 +0x7b\n"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/beats/v7/libbeat/cmd/instance.(*Beat).launch(0xc000433500, {{0x556e6b4647b5, 0xa}, {0x556e6b4647b5, 0xa}, "
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "{0x556e6b45a2a3, 0x5}, 0x0, 0x1, {{0x556e6b4647bf, ..."
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "}, ...}, ...}, ...)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/cmd/instance/beat.go:475 +0x813"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ngithub.com/elastic/beats/v7/libbeat/cmd/instance.Run.func1(0xc00075fcc8, 0x8020103?)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/cmd/instance/beat.go:"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "180 +0x145\ngithub.com/elastic/beats/v7/libbeat/cmd/instance.Run({"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: "{0x556e6b4647b5, 0xa}, {0x556e6b4647b5, 0xa}, {0x556e6b45a2a3, 0x5}"
+17:20:13.617
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 0x0, 0x1, {{0x556e6b4647bf, 0xa}, ...}, ...}"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", ...)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/cmd/instance/beat.go:"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "181 +0x25\n"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/beats/v7/libbeat/cmd.genRunCmd.func1"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc0003b3080?, {0x556e6b459ac5?, 0x16?, 0x17?})\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/cmd/run.go:36 +0x58\n"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/spf13/cobra.(*Command).execute("
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc0003b3080, {0xc00004e190, 0x16, 0x17})\n\tgithub.com/spf13/cobra@v1.3.0/command.go:860 +"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x663\ngithub.com/spf13/cobra.(*Command).ExecuteC(0xc0003b3080)\n\tgithub.com/spf13/cobra@v1.3.0/command.go:974 +0x3b4\ngithub.com/spf13/cobra.(*Command).Execute(...)\n"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/spf13/cobra@v1.3.0/command.go:902\nmain.Main()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:238 +0x32\nmain.main()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":246 +0x19\n"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "goroutine 6 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186300)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 7 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc0001863c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 8 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186480)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 9 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186540)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 10 [chan receive, 60 minutes]:\n"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186600)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 11 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc0001866c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 12 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186780)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 13 [chan receive, 60"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: " minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186840)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 14 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder"
+17:20:13.618
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc000186900)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 15 [chan receive, 60"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: " minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc0001869c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x185\n\ngoroutine 16 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186a80)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n\ngoroutine 18 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186b40)\n\t"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 19 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186c00)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 20"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: " [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186cc0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 21 [chan receive, 60 minutes]:\n"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186d80)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n\ngoroutine 22 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000186e40)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x185\n\ngoroutine 73 [select]:\n"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "go.opencensus.io/stats/view.(*worker).start(0xc000424000)\n\t"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "go.opencensus.io@v0.23.0/stats/view/worker.go:276 +0xad\ncreated by go.opencensus.io/stats/view.init.0\n\tgo.opencensus.io@v0.23.0/stats/view/worker.go:"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "34 +0x8d\n\ngoroutine 26 [chan receive]:\n"
+17:20:13.619
+elastic_agent
+[elastic_agent][error] apm-server stderr: "k8s.io/klog/v2.(*loggingT).flushDaemon(0xc0001f0000?)\n"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tk8s.io/klog/v2@v2.30.0/klog.go:1181 +0x6a\ncreated by k8s.io/klog/v2.init.0\n\tk8s.io/klog/v2@v2.30.0/klog.go:420 +0xf6\n\ngoroutine 84 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187200)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 85 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc0001872c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 86 ["
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187380)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\n"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "goroutine 87 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187440)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by "
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 88 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187500)\n\t"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 89 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc0001875c0"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 90 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187680)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\n"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "created by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 91 [chan receive, 60 minutes]:\n"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187740)\n"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +"
+17:20:13.620
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x185\n\ngoroutine 92 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187800)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 93 [chan receive, 60 minutes]:\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc0001878c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ngoroutine 94 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187980)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 95 [chan receive, 60 minutes]:\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187a40)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "goroutine 96 [chan receive, 60 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187b00)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "created by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 97 [chan receive, 60 minutes]:\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187bc0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 98 [chan receive, 60"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: " minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187c80)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n\ngoroutine 99 [chan receive, 60 minutes]:\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc000187d40)\n\t"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":117 +0x185\n\ngoroutine 124 [IO wait, 60 minutes]:\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "internal/poll.runtime_pollWait(0x7f4606bdb818, 0x72)\n\truntime/netpoll.go:302"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x89\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "internal/poll.(*pollDesc).wait(0xc000059880?, 0x18?, 0x0"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\n"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "internal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Accept(0xc000059880)\n\tinternal/poll/fd_unix.go:614"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x22c\nnet.(*netFD).accept(0xc000059880)\n\tnet/fd_unix.go:172 +"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x35\nnet.(*UnixListener).accept(0x556e694f87b0?)\n\tnet/unixsock_posix.go"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":166 +0x1c\nnet.(*UnixListener).Accept"
+17:20:13.621
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc0004fef00)\n\tnet/unixsock.go:260"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x3d\nnet/http.(*Server).Serve(0xc000790000, {0x556e6c316ec8, 0xc0004fef00})\n\tnet/http/server.go:3039 +0x385\nnet/http.Serve(...)\n\tnet/http/server.go:2543\ngithub.com/elastic/beats/v7/libbeat/api.(*Server).Start.func1({0x556e6c316ec8, 0xc0004fef00})\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/api/server.go:66 +0x14c\n"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: "created by github.com/elastic/beats/v7/libbeat/api.(*Server).Start\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/api/server.go:64 +0x12d\n\ngoroutine 136 [select, 60 minutes]:\ngithub.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.(*bufferingEventLoop).run(0xc00069e0e0)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/eventloop.go:286 +0x1bc\ngithub.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.NewQueue.func1"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: "()\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:209 +0x67\ncreated by github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.NewQueue\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: "207 +0x4ce\n\ngoroutine 137 [select, 60 minutes]:\n"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.(*ackLoop).run(0xc00073f920)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/ackloop.go:53 +0xd7\ngithub.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.NewQueue.func2()\n\t"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:213 +0x65\ncreated by github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.NewQueue\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:211 +0x525\n\ngoroutine 138 [select, "
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: "60 minutes]:\ngithub.com/elastic/beats/v7/libbeat/publisher/pipeline.(*eventConsumer).run(0xc0006d66e0)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go:153 +"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x3cf\ngithub.com/elastic/beats/v7/libbeat/publisher/pipeline.newEventConsumer.func1()\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go:90 +0x5a\ncreated by github.com/elastic/beats/v7/libbeat/publisher/pipeline.newEventConsumer\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":88 +0x198\n\n"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: "goroutine 139 [select"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 60 minutes]:\ngithub.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.(*broker).Get(0xc0006d2f00, 0x0)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:236 +0xd3\n"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/beats/v7/libbeat/publisher/pipeline.(*queueReader).run(0xc0006d90a0, 0xc000526ad0)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/queue_reader.go"
+17:20:13.622
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":57 +0x126\ngithub.com/elastic/beats/v7/libbeat/publisher/pipeline.(*eventConsumer).run.func1()\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go:103 +0x25\ncreated by github.com/elastic/beats/v7/libbeat/publisher/pipeline.(*eventConsumer).run\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go:102 +0x17b\n"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ngoroutine 56 [syscall, 60 minutes]:\n"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "os/signal.signal_recv()\n\truntime/sigqueue.go:151 +0x2f\nos/signal.loop()\n\tos/signal/signal_unix.go:23 +0x19\ncreated by os/signal.Notify.func1.1\n\tos/signal/signal.go:151 +0x2a\n\ngoroutine 74 [chan receive, 60 minutes]:\ngithub.com/elastic/elastic-agent-libs/service.HandleSignals.func1()\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/service/service.go:50 +0x65\ncreated by github.com/elastic/elastic-agent-libs/service.HandleSignals\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/service/service.go:49 +0x18f\n\ngoroutine 45 [select, 60 minutes]:\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip.func2()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:451 +0x205\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:434 +0x23a\n\ngoroutine 76 [select]:\n"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/beater.adjustMaxProcs({0x556e6c3186c8, 0xc000456380}, 0x0?, 0x0?, 0x0?)\n\tgithub.com/elastic/apm-server/beater/beater.go:1044 +0x133\ncreated by github.com/elastic/apm-server/beater.(*beater).run\n\tgithub.com/elastic/apm-server/beater/beater.go:166 +0x14a\n\ngoroutine 77 [chan receive, 60 minutes]:\ngithub.com/elastic/apm-server/beater.(*beater).run.func2()\n\tgithub.com/elastic/apm-server/beater/beater.go:213 +0x1f\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 78 [select, 60 minutes]:\ngithub.com/elastic/apm-server/beater.(*chanReloader).serve(0xc000814960, {0x556e6c3186c8, 0xc0004563c0}, {0x556e6c2fecf8, 0xc0004583d0})\n\tgithub.com/elastic/apm-server/beater/beater.go:958 +0xfb\ngithub.com/elastic/apm-server/beater.(*beater).run.func3()\n\t"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/beater/beater.go:220 +0x99\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 79 [select, 60 minutes]:\ngoogle.golang.org/grpc.(*ccBalancerWrapper).watcher"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc0004565c0)\n\tgoogle.golang.org/grpc@v1.48.0/balancer_conn_wrappers.go:112 +0x73\ncreated by google.golang.org/grpc.newCCBalancerWrapper"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n\tgoogle.golang.org/grpc@v1.48.0/balancer_conn_wrappers.go:73 +0x22a\n\ngoroutine 43 [select, "
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "60 minutes]:\ngoogle.golang.org/grpc.newClientStreamWithParams.func4()\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:355 +0x92\n"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "created by google.golang.org/grpc.newClientStreamWithParams\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:354 +0xbca\n"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ngoroutine 81 [semacquire, 60 minutes]:\n"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: "sync.runtime_Semacquire(0xc00032d410?)\n\truntime/sema.go:56"
+17:20:13.625
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x25\nsync.(*WaitGroup).Wait(0x556e6c3186c8?)\n"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tsync/waitgroup.go:136 +0x52\n"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip(0xc000349d40)\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:312 +0x20f\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).startCheckin.func1()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:181 +"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x6d\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).startCheckin\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:171 +0x6c\n\ngoroutine 146 [semacquire, 60 minutes]:\nsync.runtime_Semacquire(0xc0006beb40?)\n\truntime/sema.go:56 +0x25\nsync.(*WaitGroup).Wait(0x556e6c3186c8"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?)\n\tsync/waitgroup.go:136 +0x52\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip(0xc000349d40, 0xc0009544e0)\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:468 +0x245\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).startActions.func1()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "340 +0x7b\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).startActions\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:330 +0x9e\n"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ngoroutine 42 [select]:\n"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "google.golang.org/grpc/internal/transport.(*controlBuffer).get"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc000796cd0, 0x1)\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/controlbuf.go:408 +0x115\ngoogle.golang.org/grpc/internal/transport.(*loopyWriter).run"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc0001c9d40)\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/controlbuf.go:535 +0x85\ngoogle.golang.org/grpc/internal/transport.newHTTP2Client.func3()\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/http2_client.go:415 +0x65\n"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "created by google.golang.org/grpc/internal/transport.newHTTP2Client\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/http2_client.go:413 +0x1eb1\n\ngoroutine 44 [select, 60 minutes]:\ngoogle.golang.org/grpc/internal/transport.(*Stream).waitOnHeader(0xc0004f8240)\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:324 +0x7c\ngoogle.golang.org/grpc/internal/transport.(*Stream).RecvCompress(...)\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:339\ngoogle.golang.org/grpc.(*csAttempt).recvMsg(0xc0005a8240, {0x556e6c147220?, 0xc000424280}, "
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x1?)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:980 +0xbe\ngoogle.golang.org/grpc.(*clientStream).RecvMsg.func1(0x1?)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:845 +0x25\ngoogle.golang.org/grpc.(*clientStream).withRetry(0xc0001a4000, 0xc0005b7ec8, 0xc0005b7e98)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:709 +"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xd3\ngoogle.golang.org/grpc.(*clientStream).RecvMsg(0xc0001a4000, {0x556e6c147220?, 0xc000424280?})\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:844 +0x11f\n"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/elastic-agent-client/v7/pkg/proto.(*elasticAgentActionsClient).Recv(0xc000526b00)\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/proto/elastic-agent-client_grpc.pb.go:145 +0x4c\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip.func1"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:362 +0xb2\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:359 +0x17a\n\ngoroutine 41 [IO wait]:\ninternal/poll.runtime_pollWait(0x7f4606bdb728, 0x72)\n\truntime/netpoll.go:302 +0x89\ninternal/poll.(*pollDesc).wait(0xc000424200?, 0xc000012000?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Read"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc000424200, {0xc000012000, 0x21f9, 0x21f9})\n\tinternal/poll/fd_unix.go:167 +0x25a\nnet.(*netFD).Read(0xc000424200, {0xc000012000?, 0xc0007346a0"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?, 0xc000012005?})\n\tnet/fd_posix.go:55 +0x29\n"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net.(*conn).Read(0xc0000101d0, {0xc000012000?, 0x617"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?, 0xc0007346a0?})\n\tnet/net.go:183 +0x45\ncrypto/tls.(*atLeastReader).Read"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc000b18b58, {0xc000012000?, 0x0?, 0xffffef007fffe7?})\n\tcrypto/tls/conn.go:784 +"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x3d\nbytes.(*Buffer).ReadFrom(0xc0000d0278, {0x556e6c2f7db8, 0xc000b18b58})\n\tbytes/buffer.go:204 +0x98\ncrypto/tls.(*Conn).readFromUntil"
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc0000d0000, {0x556e6c2fcd58?, 0xc0000101d0}, "
+17:20:13.626
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x21f9?)\n\tcrypto/tls/conn.go:806 +0xe5\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "crypto/tls.(*Conn).readRecordOrCCS(0xc0000d0000, 0x0)\n\tcrypto/tls/conn.go:613"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x116\ncrypto/tls.(*Conn).readRecord(...)\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tcrypto/tls/conn.go:581\ncrypto/tls.(*Conn).Read(0xc0000d0000, {"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc000754000, 0x8000, 0xc0007a8000?})\n\tcrypto/tls/conn.go:1284 +0x16f\nbufio.(*Reader).Read(0xc0001c9ce0, "
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "{0xc0002d0580, 0x9, 0x18?})\n\tbufio/bufio.go:236 +0x1b4\nio.ReadAtLeast"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "({0x556e6c2f7b98, 0xc0001c9ce0}, {0xc0002d0580, 0x9, 0x9"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "}, 0x9)\n\tio/io.go:331 +0x9a\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "io.ReadFull(...)\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tio/io.go:350\ngolang.org/x/net/http2.readFrameHeader({0xc0002d0580?, 0x9"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?, 0x18?}, {0x556e6c2f7b98?, 0xc0001c9ce0?})\n\tgolang.org/x/net@v0.0.0-20220722155237-a158d28d115b/http2/frame.go:237 +0x6e\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "golang.org/x/net/http2.(*Framer).ReadFrame(0xc0002d0540)\n\tgolang.org/x/net@v0.0.0-20220722155237-a158d28d115b/http2/frame.go:498 +0x95\ngoogle.golang.org/grpc/internal/transport.(*http2Client).reader(0xc0000003c0)\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgoogle.golang.org/grpc@v1.48.0/internal/transport/http2_client.go:1501 +0x414\ncreated by google.golang.org/grpc/internal/transport.newHTTP2Client\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgoogle.golang.org/grpc@v1.48.0/internal/transport/http2_client.go:365 +0x1865\n\ngoroutine 107 [select, 60 minutes"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "]:\ngoogle.golang.org/grpc.newClientStreamWithParams.func4()\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:355 +0x92\ncreated by "
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "google.golang.org/grpc.newClientStreamWithParams\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:354 +0xbca\n\ngoroutine 108 ["
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "select, 60 minutes]:\ngoogle.golang.org/grpc/internal/transport.(*recvBufferReader).readClient(0xc0009582d0, {0xc00043c3b8, 0x5, 0x5"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "})\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:191 +0xa5\ngoogle.golang.org/grpc/internal/transport.(*recvBufferReader).Read(0xc0009582d0, {0xc00043c3b8?, "
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc0007ba000?, 0xc000b61a58?})\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:171 +0x147\ngoogle.golang.org/grpc/internal/transport.(*transportReader).Read(0xc00032d380"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", {0xc00043c3b8?, 0xc000b61ad0?, 0x556e69bbc707?})\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:485 +0x32\nio.ReadAtLeast({0x556e6c2fbfd8, 0xc00032d380}, {0xc00043c3b8, 0x5, 0x5}, 0x5)\n\tio/io.go:331 +"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x9a\nio.ReadFull(...)\n\tio/io.go:350\ngoogle.golang.org/grpc/internal/transport.(*Stream).Read(0xc00032a120, {0xc00043c3b8, 0x5, 0x5})\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:469 +"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xa5\ngoogle.golang.org/grpc.(*parser).recvMsg(0xc00043c3a8, 0x400000)\n\tgoogle.golang.org/grpc@v1.48.0/rpc_util.go:559 +0x47\ngoogle.golang.org/grpc.recvAndDecompress"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc00042ee70?, 0xc00032a120, {0x0, 0x0}, "
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x400000, 0x0, {0x0, 0x0})\n\tgoogle.golang.org/grpc@v1.48.0/rpc_util.go:690 +0x66\ngoogle.golang.org/grpc.recv"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc000b61e28?, {0x7f45dce63588, 0x556e6db2b7f0}, 0xc000b61eb8?, {"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x0?, 0x0?}, {0x556e6c0d0e40, 0xc0006d6190}, 0x6"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?, 0x0, ...)\n\tgoogle.golang.org/grpc@v1.48.0/rpc_util.go:756 +0x6e\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "google.golang.org/grpc.(*csAttempt).recvMsg(0xc0005ca0c0, {0x556e6c0d0e40?, 0xc0006d6190}, 0x21a?)\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgoogle.golang.org/grpc@v1.48.0/stream.go:994 +0x2b0\ngoogle.golang.org/grpc.(*clientStream).RecvMsg.func1(0x0?)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "845 +0x25\ngoogle.golang.org/grpc.(*clientStream).withRetry(0xc000361560, 0xc000b61ef0, "
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc000b61ec0)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:705 +0x2f6\ngoogle.golang.org/grpc.(*clientStream).RecvMsg(0xc000361560, {0x556e6c0d0e40?, 0xc0006d6190"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?})\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:844 +0x11f\ngithub.com/elastic/elastic-agent-client/v7/pkg/proto.(*elasticAgentCheckinClient).Recv(0xc000610260)\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/proto/elastic-agent-client_grpc.pb.go:83 +0x4c\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip.func1()\n"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:204 +0x97\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:201 +0x15c\n\ngoroutine 109 [select]:\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip.func2()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:247 +"
+17:20:13.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x138\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:237 +0x205\n\ngoroutine 371 [select, 60 minutes]:\ngithub.com/elastic/beats/v7/libbeat/publisher/pipeline.(*netClientWorker).run("
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc00087c2d0)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/client_worker.go:123 +0x97\ncreated by github.com/elastic/beats/v7/libbeat/publisher/pipeline.makeClientWorker\n\t"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/client_worker.go:76 +0x2a5\n\ngoroutine 315 [semacquire, 60 minutes]:\nsync.runtime_Semacquire(0xc0002beb60?)\n\truntime/sema.go:56"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x25\nsync.(*WaitGroup).Wait(0xc000747b01?)\n\tsync/waitgroup.go:136 +0x52\ngolang.org/x/sync/errgroup.(*Group).Wait("
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc000b3f380)\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:52 +0x27\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/beater.(*serverRunner).run(0xc0006cc8f0, {0x556e6c316e98, 0xc000b68018})\n\tgithub.com/elastic/apm-server/beater/beater.go:584 +0xa53\ngithub.com/elastic/apm-server/beater.(*reloader).reload.func1()\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/elastic/apm-server/beater/beater.go:344 +0x90\ncreated by github.com/elastic/apm-server/beater.(*reloader).reload\n\tgithub.com/elastic/apm-server/beater/beater.go:342 +0x265\n\ngoroutine 110 ["
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "semacquire, 60 minutes]:\nsync.runtime_Semacquire(0xc000804000?)\n\truntime/sema.go:56 +0x25"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\nsync.(*WaitGroup).Wait(0xc0005c9a08?)\n\tsync/waitgroup.go:136 +0x52\ngolang.org/x/sync/errgroup.(*Group).Wait("
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc000976400)\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:52 +0x27\nmain.runServerWithProcessors("
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "{_, _}, _"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", {{{0x556e6b4647b5, 0xa}, {"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x556e6b4647b5, 0xa}, {0x556e6b45a2a3, 0x5}, 0x1, ...}, ...}, ..."
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:208 +0x585\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "main.wrapRunServer.func1({_, _"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "}, {{{0x556e6b4647b5, 0xa}, {0x556e6b4647b5, 0xa}, {"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x556e6b45a2a3, 0x5}, 0x1, {0xc000315cf0, ...}, ...}, "
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "...})\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:217 +0xe5\ngithub.com/elastic/apm-server/beater.WrapRunServerWithProcessors.func1({_, _}"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", {{{0x556e6b4647b5, 0xa}, {0x556e6b4647b5, 0xa}, {0x556e6b45a2a3, 0x5}"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 0x1, {0xc000315cf0, ...}, ...}, ..."
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "})\n\tgithub.com/elastic/apm-server/beater/beater.go:913 +0x16d\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/beater.(*serverRunner).run.func6()\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/elastic/apm-server/beater/beater.go:571 +0x246\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 338 [select]:\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/patrickmn/go-cache.(*janitor).Run(0xc000962100, 0x0?)\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/patrickmn/go-cache@v2.1.0+incompatible/cache.go:1079 +0x85\ncreated by github.com/patrickmn/go-cache.runJanitor\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/patrickmn/go-cache@v2.1.0+incompatible/cache.go:1099 +0xed\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ngoroutine 403 [IO wait, 60 minutes]:\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "internal/poll.runtime_pollWait(0x7f4606bdb638, 0x72)\n\truntime/netpoll.go:302"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x89\ninternal/poll.(*pollDesc).wait(0xc0003ce200?, 0xc000339300?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ninternal/poll.(*FD).Read(0xc0003ce200, {0xc000339300, 0x1270, 0x1270})\n\tinternal/poll/fd_unix.go:167 +0x25a\nnet.(*netFD).Read(0xc0003ce200, {0xc000339300?, 0xc0004386c0?, "
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc000339305?})\n\tnet/fd_posix.go:55 +0x29\nnet.(*conn).Read(0xc0009aa010, {0xc000339300"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?, 0x0?, 0x0?})\n\tnet/net.go:183 +"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x45\ncrypto/tls.(*atLeastReader).Read(0xc0009700c0, {0xc000339300?, "
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x0?, 0x0?})\n\tcrypto/tls/conn.go:784 +0x3d\n"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "bytes.(*Buffer).ReadFrom(0xc0001f8978, {0x556e6c2f7db8, 0xc0009700c0})\n\tbytes/buffer.go:"
+17:20:13.628
+elastic_agent
+[elastic_agent][error] apm-server stderr: "204 +0x98\ncrypto/tls.(*Conn).readFromUntil(0xc0001f8700, {0x556e6c2fcd58?, 0xc0009aa010}"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 0x217?)\n\tcrypto/tls/conn.go:806 +0xe5\ncrypto/tls.(*Conn).readRecordOrCCS("
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc0001f8700, 0x0)\n\tcrypto/tls/conn.go:613 +0x116\ncrypto/tls.(*Conn).readRecord(...)\n\tcrypto/tls/conn.go:581\ncrypto/tls.(*Conn).Read"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc0001f8700, {0xc000999000, 0x1000, 0x1?})\n\tcrypto/tls/conn.go:1284"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x16f\nnet/http.(*persistConn).Read("
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc000361e60, {0xc000999000?, 0xc000420240?, 0xc0005b3d30?})\n\tnet/http/transport.go"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":1929 +0x4e\nbufio.(*Reader).fill(0xc00096d9e0)\n\tbufio/bufio.go:106 +0x103\nbufio.(*Reader).Peek("
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc00096d9e0, 0x1)\n\tbufio/bufio.go:144 +0x5d\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net/http.(*persistConn).readLoop(0xc000361e60)\n\tnet/http/transport.go:2093 +0x1ac\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "created by net/http.(*Transport).dialConn\n\tnet/http/transport.go:1750"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x173e\n\ngoroutine 362 [IO wait, 60 minutes]:\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "internal/poll.runtime_pollWait(0x7f4606bdb548, 0x72)\n\truntime/netpoll.go:302 +"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x89\ninternal/poll.(*pollDesc).wait(0xc000960b80?, 0xc00005a000?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Accept(0xc000960b80)\n\tinternal/poll/fd_unix.go:614 +0x22c\nnet.(*netFD).accept(0xc000960b80)\n\tnet/fd_unix.go:172 +0x35\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net.(*TCPListener).accept(0xc000b68018)\n\tnet/tcpsock_posix.go:139 +0x28\nnet.(*TCPListener).Accept(0xc000b68018)\n\tnet/tcpsock.go:"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "288 +0x3d\nnet/http.(*Server).Serve(0xc0007901c0, {0x556e6c316e98, 0xc000b68018}"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\tnet/http/server.go:3039 +0x385\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/beater.(*httpServer).start(0xc000456180)\n\tgithub.com/elastic/apm-server/beater/http.go:108 +0x2a5\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "golang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 361 [select]:\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/agentcfg.Reporter.Run({{0x556e6c2f8478"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 0xc0007720d8}, {0x556e6c2feab8, 0xc0007720c0}, 0x6fc23ac00, 0xc000962c20, "
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc00059a420}, {0x556e6c3186c8?, 0xc000456980})\n\tgithub.com/elastic/apm-server/agentcfg/reporter.go"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":75 +0x232\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/beater.server.run.func1()\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/elastic/apm-server/beater/server.go:237 +0x3d\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":71 +0xa5\n\ngoroutine 319 [select]:\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/x-pack/apm-server/aggregation/txmetrics.(*Aggregator).Run(0xc000058300)\n\tgithub.com/elastic/apm-server/x-pack/apm-server/aggregation/txmetrics/aggregator.go:146 +0x136"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\nmain.runServerWithProcessors.func1()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:185 +0x55\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "golang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n\ngoroutine 320 [chan receive, 60 minutes]:\nmain.runServerWithProcessors.func2()\n\t"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/x-pack/apm-server/main.go:193 +0x65\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 321 [select]:\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/apm-server/x-pack/apm-server/aggregation/spanmetrics.(*Aggregator).Run(0xc00069e1c0)\n\tgithub.com/elastic/apm-server/x-pack/apm-server/aggregation/spanmetrics/aggregator.go:109"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x136\nmain.runServerWithProcessors.func1()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:185 +0x55\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0xa5\n\ngoroutine 386 [chan receive, 60 minutes]:\n"
+17:20:13.629
+elastic_agent
+[elastic_agent][error] apm-server stderr: "main.runServerWithProcessors.func2()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:193 +0x65\n"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "golang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 387 ["
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "semacquire, 60 minutes]:\nsync.runtime_Semacquire(0xc0002bf860?)\n\truntime/sema.go:56 +0x25\nsync.(*WaitGroup).Wait(0xc001127a98?)\n\tsync/waitgroup.go:"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "136 +0x52\ngolang.org/x/sync/errgroup.(*Group).Wait(0xc0004569c0)\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:52 +0x27\ngithub.com/elastic/apm-server/beater.server.run("
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "{0xc0006d90f0, 0xc000581400, {{0x556e6c2f8478, 0xc0007720d8}, {0x556e6c2feab8, 0xc0007720c0}, 0x6fc23ac00"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 0xc000962c20, 0xc00059a420}, 0xc000456180, ...}, ...)\n\tgithub.com/elastic/apm-server/beater/server.go:"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "248 +0x425\ngithub.com/elastic/apm-server/beater.newBaseRunServer.func1({_, _"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "}, {{{0x556e6b4647b5, 0xa}, {"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x556e6b4647b5, 0xa}, {0x556e6b45a2a3, 0x5}, 0x1, {0xc000315cf0, ...}, ...}, "
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "...})\n\tgithub.com/elastic/apm-server/beater/server.go:109 +0x169\ngithub.com/elastic/apm-server/beater.WrapRunServerWithProcessors.func1({_, _}, {{{"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x556e6b4647b5, 0xa}, {0x556e6b4647b5, 0xa}, {0x556e6b45a2a3, 0x5}, 0x1, {0xc000315cf0, ...}"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", ...}, ...})\n\tgithub.com/elastic/apm-server/beater/beater.go:913 +0x16d\nmain.runServerWithProcessors.func3()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:206"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: " +0x63\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 363 [chan receive, 60 minutes]:\n"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "github.com/elastic/gmux.(*chanListener).Accept(0x556e6c327e00?)\n\tgithub.com/elastic/gmux@v0.2.0/conn.go:100 +0x28\ngoogle.golang.org/grpc.(*Server).Serve(0xc00049a3c0, {0x556e6c309c98?, "
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc0006d4cf0})\n\tgoogle.golang.org/grpc@v1.48.0/server.go:790 +0x477\ngithub.com/elastic/apm-server/beater.server.run.func2()\n\tgithub.com/elastic/apm-server/beater/server.go:240 +0x29\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 364 [chan receive, 60 minutes]:\ngithub.com/elastic/apm-server/beater.server.run.func3()\n\tgithub.com/elastic/apm-server/beater/server.go:243 +0x2e\ngolang.org/x/sync/errgroup.(*Group).Go.func1("
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\t"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "golang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 404 [select, 60 minutes]:\nnet/http.(*persistConn).writeLoop"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc000361e60)\n\tnet/http/transport.go:2392 +0xf5\ncreated by net/http.(*Transport).dialConn\n"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tnet/http/transport.go:1751 +0x1791\n\ngoroutine 419 [IO wait]:\n"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "internal/poll.runtime_pollWait(0x7f4606bdb368, 0x72)\n\truntime/netpoll.go:302 +0x89"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ninternal/poll.(*pollDesc).wait(0xc000961400?, 0xc000528000?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":88\ninternal/poll.(*FD).Read(0xc000961400, {0xc000528000, 0x1000, 0x1000})\n\tinternal/poll/fd_unix.go:167 +0x25a\n"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net.(*netFD).Read(0xc000961400, {0xc000528000?, 0x7f45dfb7bfff?, 0x556e69507fbe?})\n"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tnet/fd_posix.go:55 +0x29\nnet.(*conn).Read(0xc0009821c0, {0xc000528000"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?, 0x203000?, 0x400?})\n\tnet/net.go:183 +0x45\n"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net/http.(*connReader).Read(0xc000346270, {0xc000528000, 0x1000, 0x1000})\n\tnet/http/server.go:780 +0x16d\nbufio.(*Reader).fill"
+17:20:13.630
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc00096dc80)\n\tbufio/bufio.go:106 +0x103\n"
+17:20:13.631
+elastic_agent
+[elastic_agent][error] apm-server stderr: "bufio.(*Reader).ReadSlice(0xc00096dc80, 0x0?)\n\tbufio/bufio.go:371 +0x2f\nbufio.(*Reader).ReadLine(0xc00096dc80)\n"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tbufio/bufio.go:400 +0x27\nnet/textproto.(*Reader).readLineSlice(0xc000167a40)\n\tnet/textproto/reader.go:57 +0x99\nnet/textproto.(*Reader).ReadLine(...)\n\tnet/textproto/reader.go:38\nnet/http.readRequest(0xc0009821c0?)\n\tnet/http/request.go:1029 +0x79\nnet/http.(*conn).readRequest(0xc00026b4a0, {0x556e6c3186c8, 0xc000976cc0})\n\tnet/http/server.go:988 +0x24a\nnet/http.(*conn).serve(0xc00026b4a0, {0x556e6c318770, 0xc00073e0f0})\n"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tnet/http/server.go:1891 +0x32b\ncreated by net/http.(*Server).Serve\n\tnet/http/server.go:3071 +0x4db\n\ngoroutine 420 [IO wait]:\n"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "runtime.ReadMemStats(0xc001477c98)\n\t"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "runtime/mstats.go:403 +0x2a\ngithub.com/elastic/elastic-agent-system-metrics/report.MemStatsReporter.func1(0x1, {0x556e6c31f598, 0xc000f4ee00})\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/report/report.go:40 +0x96\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Func).Visit(0xc001479770?, 0x1c?, "
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "{0x556e6c31f598?, 0xc000f4ee00?})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/metrics.go:221 +0x2e\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).doVisit(0xc000032240, 0x1, {0x556e6c31f598, 0xc000f4ee00})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:83 +"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0x1c3\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).Visit(0xc001479880?, 0xa9?, {0x556e6c31f598?, 0xc000f4ee00?})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:65 +0x25\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).doVisit(0xc000050780, 0x1, {0x556e6c31f598, 0xc000f4ee00})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":83 +0x1c3\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).Visit(...)\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:65\ngithub.com/elastic/elastic-agent-libs/monitoring.CollectStructSnapshot(0xc0000b2540?, 0xe0?, 0x0)\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/snapshot.go:89 +0xcc\ngithub.com/elastic/beats/v7/libbeat/api.makeAPIHandler.func1({0x556e6c3170a8, 0xc000d22b60}, 0xc001007c00"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/api/routes.go:74 +0xde\nnet/http.HandlerFunc.ServeHTTP(0x7f45dc183f70?, {0x556e6c3170a8?, 0xc000d22b60?}, 0x556e6949bec5?)\n\tnet/http/server.go:2084 +0x2f\nnet/http.(*ServeMux).ServeHTTP(0x0?, "
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "{0x556e6c3170a8, 0xc000d22b60}, 0xc001007c00)\n\tnet/http/server.go:"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "2462 +0x149\nnet/http.serverHandler.ServeHTTP({0xc000346360?}"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", {0x556e6c3170a8, 0xc000d22b60}, "
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc001007c00)\n\tnet/http/server.go:2916 +0x43b\n"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net/http.(*conn).serve(0xc00026b720, {0x556e6c318770, 0xc00073e0f0})\n\tnet/http/server.go:1966 +0x5d7\ncreated by net/http.(*Server).Serve\n\t"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net/http/server.go:3071 +0x4db\n\ngoroutine 2721 [IO wait"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "]:\ninternal/poll.runtime_pollWait(0x7f4606bdb278, 0x72)\n\t"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "runtime/netpoll.go:302 +0x89\ninternal/poll.(*pollDesc).wait(0xc000961580"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?, 0xc000346371?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ninternal/poll.(*FD).Read(0xc000961580, {0xc000346371, 0x1, 0x1"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "})\n\tinternal/poll/fd_unix.go:167 +0x25a\nnet.(*netFD).Read(0xc000961580, {0xc000346371?"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 0xc000976d98?, 0xc00118ff68?})\n\tnet/fd_posix.go:55 +0x29\n"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net.(*conn).Read(0xc0009821c8, {0xc000346371?, 0xc001040640?, 0x0?})\n"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tnet/net.go:183 +0x45\nnet/http.(*connReader).backgroundRead("
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc000346360)\n\tnet/http/server.go:672 +0x3f\ncreated by net/http.(*connReader).startBackgroundRead\n\t"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net/http/server.go:668 +0xca\n\ngoroutine 2724 [IO wait]:\ninternal/poll.runtime_pollWait(0x7f4606bdb458, 0x72)\n\truntime/netpoll.go"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: ":302 +0x89\ninternal/poll.(*pollDesc).wait(0xc000961280?, 0xc0003462e1?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Read(0xc000961280, {0xc0003462e1"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: ", 0x1, 0x1})\n\tinternal/poll/fd_unix.go:167 +0x25a\nnet.(*netFD).Read("
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "0xc000961280, {0xc0003462e1?, 0xc000976d18?, 0xc00118ef68?})\n\tnet/fd_posix.go:55 +0x29"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\nnet.(*conn).Read(0xc0009821b8, {0xc0003462e1?, 0xc00111e000?, 0x28000080008?})\n"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tnet/net.go:183 +0x45\nnet/http.(*connReader).backgroundRead(0xc0003462d0)\n\t"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net/http/server.go:672 +0x3f\ncreated by net/http.(*connReader).startBackgroundRead\n\t"
+17:20:13.632
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net/http/server.go:668 +0xca\n"
+17:20:13.696
+elastic_agent
+[elastic_agent][info] 2022-10-19T17:20:13+08:00 - message: Application: apm-server--8.3.3[eb93f483-bba1-451e-9706-754d7cf85262]: State changed to RESTARTING: exited with code: 2 - type: 'STATE' - sub_type: 'STARTING'
+17:20:13.699
+elastic_agent
+[elastic_agent][info] 2022-10-19T17:20:13+08:00 - message: Application: apm-server--8.3.3[eb93f483-bba1-451e-9706-754d7cf85262]: State changed to STARTING: Starting - type: 'STATE' - sub_type: 'STARTING'
+17:20:13.699
+elastic_agent
+[elastic_agent][info] 2022-10-19T17:20:13+08:00 - message: Application: apm-server--8.3.3[eb93f483-bba1-451e-9706-754d7cf85262]: State changed to RESTARTING: Restarting - type: 'STATE' - sub_type: 'STARTING'
+17:20:14.410
+elastic_agent
+[elastic_agent][info] 2022-10-19T17:20:14+08:00 - message: Application: apm-server--8.3.3[eb93f483-bba1-451e-9706-754d7cf85262]: State changed to STARTING: Starting - type: 'STATE' - sub_type: 'STARTING'
+17:20:14.910
+elastic_agent
+[elastic_agent][info] 2022-10-19T17:20:14+08:00 - message: Application: apm-server--8.3.3[eb93f483-bba1-451e-9706-754d7cf85262]: State changed to RUNNING: Running - type: 'STATE' - sub_type: 'RUNNING'
+23:12:33.627
+elastic_agent
+[elastic_agent][error] apm-server stderr: "fatal error: concurrent map writes\n"
+23:12:33.631
+elastic_agent
+[elastic_agent][error] apm-server stderr: "fatal error: "
+23:12:33.633
+elastic_agent
+[elastic_agent][error] apm-server stderr: "concurrent map writes"
+23:12:33.633
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n"
+23:12:33.651
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\n"
+23:12:33.652
+elastic_agent
+[elastic_agent][error] apm-server stderr: "goroutine 372"
+23:12:33.652
+elastic_agent
+[elastic_agent][error] apm-server stderr: " ["
+23:12:33.655
+elastic_agent
+[elastic_agent][error] apm-server stderr: "running]:\nruntime.throw({0x55769e5b1b73?, 0x1?})\n\truntime/panic.go:992 +0x71 fp=0xc0015ecaa8 sp=0xc0015eca78 pc=0x55769c5fb011\nruntime.mapassign(0x55769f063360, 0xc00079eb40, 0x55769e59665c?)\n\truntime/map.go:686 +0x4c5 fp=0xc0015ecb28 sp=0xc0015ecaa8 pc=0x55769c5d2f25\ngithub.com/elastic/elastic-agent-system-metrics/metric/system/process.(*Stats).GetSelf(_)\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/metric/system/process/process.go:137 +0x239 fp=0xc0015ed0b8 sp=0xc0015ecb28 pc=0x55769d7e6c99\ngithub.com/elastic/elastic-agent-system-metrics/report.getFDUsage(0x55769e58eb25?)\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/report/metrics_file_descriptors.go:53 +0x58 fp=0xc0015ed5f8 sp=0xc0015ed0b8 pc=0x55769d7ef3d8\ngithub.com/elastic/elastic-agent-system-metrics/report.FDUsageReporter.func1(0x78?, {0x55769f454598, 0xc000dd2a80})\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/report/metrics_file_descriptors.go:38 +0xc5 fp=0xc0015ed6e8 sp=0xc0015ed5f8 pc=0x55769d7ef0e5\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Func).Visit(0xc0015ed770?, 0xc9?, {0x55769f454598?, 0xc000dd2a80?})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/metrics.go:221 +0x2e fp=0xc0015ed710 sp=0xc0015ed6e8 pc=0x55769cb5864e\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).doVisit(0xc000113f80, 0x1, {0x55769f454598, 0xc000dd2a80})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:83 +0x1c3 fp=0xc0015ed7f0 sp=0xc0015ed710 pc=0x55769cb5a023\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).Visit(0xc0015ed880?, 0xa9?, {0x55769f454598?, 0xc000dd2a80?})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:65 +0x25 fp=0xc0015ed820 sp=0xc0015ed7f0 pc=0x55769cb59e25\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).doVisit(0xc000112740, 0x1, {0x55769f454598, 0xc000dd2a80})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:83 +0x1c3 fp=0xc0015ed900 sp=0xc0015ed820 pc=0x55769cb5a023\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).Visit(...)\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:65\ngithub.com/elastic/elastic-agent-libs/monitoring.CollectStructSnapshot(0xc000152520?, 0xd0?, 0x0)\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/snapshot.go:89 +0xcc fp=0xc0015ed9c8 sp=0xc0015ed900 pc=0x55769cb5ba4c\ngithub.com/elastic/beats/v7/libbeat/api.makeAPIHandler.func1({0x55769f44c0a8, 0xc000dfe000}, 0xc0007fba00)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/api/routes.go:74 +0xde fp=0xc0015eda20 sp=0xc0015ed9c8 pc=0x55769d64227e\nnet/http.HandlerFunc.ServeHTTP(0x7ffa6370dcf8?, {0x55769f44c0a8?, 0xc000dfe000?}, 0x55769c5d0ec5?)\n\tnet/http/server.go:2084 +0x2f fp=0xc0015eda48 sp=0xc0015eda20 pc=0x55769ca140af\nnet/http.(*ServeMux).ServeHTTP(0x0?, {0x55769f44c0a8, 0xc000dfe000}, 0xc0007fba00)\n\tnet/http/server.go:2462 +0x149 fp=0xc0015eda98 sp=0xc0015eda48 pc=0x55769ca15dc9\nnet/http.serverHandler.ServeHTTP({0xc000554360?}, {0x55769f44c0a8, 0xc000dfe000}, 0xc0007fba00)\n\tnet/http/server.go:2916 +0x43b fp=0xc0015edb58 sp=0xc0015eda98 pc=0x55769ca17a9b\nnet/http.(*conn).serve(0xc00039c500, {0x55769f44d770, 0xc0006500f0})\n\tnet/http/server.go:1966 +0x5d7 fp=0xc0015edfb8 sp=0xc0015edb58 pc=0x55769ca12b57\nnet/http.(*Server).Serve.func3()\n\tnet/http/server.go:3071 +0x2e fp=0xc0015edfe0 sp=0xc0015edfb8 pc=0x55769ca184ce\n"
+23:12:33.661
+elastic_agent
+[elastic_agent][error] apm-server stderr: "runtime.goexit()\n\truntime/asm_amd64.s:1571 +0x1 fp=0xc0015edfe8 sp=0xc0015edfe0 pc=0x55769c62fa01\ncreated by net/http.(*Server).Serve\n\tnet/http/server.go:3071 +0x4db\n\ngoroutine 1 [semacquire, 352 minutes]:\nsync.runtime_Semacquire(0xc0000021a0?)\n\truntime/sema.go:56 +0x25\nsync.(*WaitGroup).Wait(0xc0007f5458?)\n\tsync/waitgroup.go:136 +0x52\ngolang.org/x/sync/errgroup.(*Group).Wait(0xc000642340)\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:52 +0x27\ngithub.com/elastic/apm-server/beater.(*beater).run(0xc00069e3c0, {0x55769f44d6c8?, 0xc0006422c0}, 0xc000110760, 0xc0006f4a80)\n\tgithub.com/elastic/apm-server/beater/beater.go:242 +0x779\ngithub.com/elastic/apm-server/beater.(*beater).Run(0xc00069e3c0, 0x11?)\n\tgithub.com/elastic/apm-server/beater/beater.go:149 +0x7b\ngithub.com/elastic/beats/v7/libbeat/cmd/instance.(*Beat).launch(0xc0006f4a80, {{0x55769e5997b5, 0xa}, {0x55769e5997b5, 0xa}, {0x55769e58f2a3, 0x5}, 0x0, 0x1, {{0x55769e5997bf, ...}, ...}, ...}, ...)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/cmd/instance/beat.go:475 +0x813\ngithub.com/elastic/beats/v7/libbeat/cmd/instance.Run.func1(0xc000773cc8, 0x5020107?)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/cmd/instance/beat.go:180 +0x145\ngithub.com/elastic/beats/v7/libbeat/cmd/instance.Run({{0x55769e5997b5, 0xa}, {0x55769e5997b5, 0xa}, {0x55769e58f2a3, 0x5}, 0x0, 0x1, {{0x55769e5997bf, 0xa}, ...}, ...}, ...)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/cmd/instance/beat.go:181 +0x25\ngithub.com/elastic/beats/v7/libbeat/cmd.genRunCmd.func1(0xc0002b6840?, {0x55769e58eac5?, 0x16?, 0x17?})\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/cmd/run.go:36 +0x58\ngithub.com/spf13/cobra.(*Command).execute(0xc0002b6840, {0xc00012c010, 0x16, 0x17})\n\tgithub.com/spf13/cobra@v1.3.0/command.go:860 +0x663\ngithub.com/spf13/cobra.(*Command).ExecuteC(0xc0002b6840)\n\tgithub.com/spf13/cobra@v1.3.0/command.go:974 +0x3b4\ngithub.com/spf13/cobra.(*Command).Execute(...)\n\tgithub.com/spf13/cobra@v1.3.0/command.go:902\nmain.Main()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:238 +0x32\nmain.main()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:246 +0x19\n\ngoroutine 21 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a300)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 22 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a3c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 23 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a480)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 24 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a540)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 25 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a600)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 26 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a6c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 27 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a780)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 28 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a840)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 29 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a900)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 30 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016a9c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 31 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016aa80)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 32 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016ab40)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 33 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016ac00)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 34 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016acc0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 35 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016ad80)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 36 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016ae40)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 72 [select]:\ngo.opencensus.io/stats/view.(*worker).start(0xc0006ee000)\n\tgo.opencensus.io@v0.23.0/stats/view/worker.go:276 +0xad\ncreated by go.opencensus.io/stats/view.init.0\n\tgo.opencensus.io@v0.23.0/stats/view/worker.go:34 +0x8d\n\ngoroutine 156 [IO wait]:\ninternal/poll.runtime_pollWait(0x7ffa6370dfc8, 0x72)\n\truntime/netpoll.go:302 +0x89\ninternal/poll.(*pollDesc).wait(0xc0006ee200?, 0xc000754000?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Read(0xc0006ee200, {0xc000754000, 0x571b, 0x571b})\n\tinternal/poll/fd_unix.go:167 +0x25a\nnet.(*netFD).Read(0xc0006ee200, {0xc000754000?, 0xc0005f8e40?, 0xc000754005?})\n\tnet/fd_posix.go:55 +0x29\nnet.(*conn).Read(0xc00012a1d8, {0xc000754000?, 0x3b39?, 0xc0005f8e40?})\n\tnet/net.go:183 +0x45\ncrypto/tls.(*atLeastReader).Read(0xc001704f90, {0xc000754000?, 0x0?, 0xffffef007fffe7"
+23:12:33.662
+elastic_agent
+[elastic_agent][error] apm-server stderr: "?}"
+23:12:33.662
+elastic_agent
+[elastic_agent][error] apm-server stderr: ")\n"
+23:12:33.671
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tcrypto/tls/conn.go:784 +0x3d\nbytes.(*Buffer).ReadFrom(0xc00012e278, {0x55769f42cdb8, 0xc001704f90})\n\tbytes/buffer.go:204 +0x98\ncrypto/tls.(*Conn).readFromUntil(0xc00012e000, {0x55769f431d58?, 0xc00012a1d8}, 0x571b?)\n\tcrypto/tls/conn.go:806 +0xe5\ncrypto/tls.(*Conn).readRecordOrCCS(0xc00012e000, 0x0)\n\tcrypto/tls/conn.go:613 +0x116\ncrypto/tls.(*Conn).readRecord(...)\n\tcrypto/tls/conn.go:581\ncrypto/tls.(*Conn).Read(0xc00012e000, {0xc0005be000, 0x8000, 0xc0003864e0?})\n\tcrypto/tls/conn.go:1284 +0x16f\nbufio.(*Reader).Read(0xc000039a40, {0xc0002d4740, 0x9, 0x18?})\n\tbufio/bufio.go:236 +0x1b4\nio.ReadAtLeast({0x55769f42cb98, 0xc000039a40}, {0xc0002d4740, 0x9, 0x9}, 0x9)\n\tio/io.go:331 +0x9a\nio.ReadFull(...)\n\tio/io.go:350\ngolang.org/x/net/http2.readFrameHeader({0xc0002d4740?, 0x9?, 0x18?}, {0x55769f42cb98?, 0xc000039a40?})\n\tgolang.org/x/net@v0.0.0-20220722155237-a158d28d115b/http2/frame.go:237 +0x6e\ngolang.org/x/net/http2.(*Framer).ReadFrame(0xc0002d4700)\n\tgolang.org/x/net@v0.0.0-20220722155237-a158d28d115b/http2/frame.go:498 +0x95\ngoogle.golang.org/grpc/internal/transport.(*http2Client).reader(0xc0002bc1e0)\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/http2_client.go:1501 +0x414\ncreated by google.golang.org/grpc/internal/transport.newHTTP2Client\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/http2_client.go:365 +0x1865\n\ngoroutine 83 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b200)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 84 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b2c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 85 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b380)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 86 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b440)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 87 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b500)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 88 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b5c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 89 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b680)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 90 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b740)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 91 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b800)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 92 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b8c0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 93 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016b980)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 94 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016ba40)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 95 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016bb00)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 96 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016bbc0)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 97 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016bc80)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\ngoroutine 98 [chan receive, 352 minutes]:\ngithub.com/klauspost/compress/zstd.(*blockDec).startDecoder(0xc00016bd40)\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:211 +0x94\ncreated by github.com/klauspost/compress/zstd.newBlockDec\n\tgithub.com/klauspost/compress@v1.14.2/zstd/blockdec.go:117 +0x185\n\n"
+23:12:33.672
+elastic_agent
+[elastic_agent][error] apm-server stderr: "goroutine 5 [chan receive]:\n"
+23:12:33.673
+elastic_agent
+[elastic_agent][error] apm-server stderr: "k8s.io/klog/v2.(*loggingT).flushDaemon(0x0?)\n\tk8s.io/klog/v2@v2.30.0/klog.go:1181 +0x6a\ncreated by k8s.io/klog/v2.init.0\n\tk8s.io/klog/v2@v2.30.0/klog.go:420 +0xf6\n\ngoroutine 99 [chan receive, 352 minutes]:\ngithub.com/elastic/elastic-agent-libs/service.HandleSignals.func1()\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/service/service.go:50 +0x65\ncreated by github.com/elastic/elastic-agent-libs/service.HandleSignals\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/service/service.go:49 +0x18f\n\ngoroutine 120 [IO wait, 352 minutes]:\ninternal/poll.runtime_pollWait(0x7ffa6370e0b8, 0x72)\n\truntime/netpoll.go:302 +0x89\ninternal/poll.(*pollDesc).wait(0xc0006ef300?, 0x18?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Accept(0xc0006ef300)\n\tinternal/poll/fd_unix.go:614 +0x22c\nnet.(*netFD).accept(0xc0006ef300)\n\tnet/fd_unix.go:172 +0x35\nnet.(*UnixListener).accept(0x55769c62d7b0?)\n\tnet/unixsock_posix.go:166 +0x1c\nnet.(*UnixListener).Accept(0xc000600ed0)\n\tnet/unixsock.go:260 +0x3d\nnet/http.(*Server).Serve(0xc000652000, {0x55769f44bec8, 0xc000600ed0})\n\tnet/http/server.go:3039 +0x385\nnet/http.Serve(...)\n\tnet/http/server.go:2543\ngithub.com/elastic/beats/v7/libbeat/api.(*Server).Start.func1({0x55769f44bec8, 0xc000600ed0})\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/api/server.go:66 +0x14c\ncreated by github.com/elastic/beats/v7/libbeat/api.(*Server).Start\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/api/server.go:64 +0x12d\n\ngoroutine 146 [select, 352 minutes]:\ngithub.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.(*bufferingEventLoop).run(0xc000314000)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/eventloop.go:286 +0x1bc\ngithub.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.NewQueue.func1()\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:209 +0x67\ncreated by github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.NewQueue\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:207 +0x4ce\n\ngoroutine 147 [select, 352 minutes]:\ngithub.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.(*ackLoop).run(0xc0005ef530)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/ackloop.go:53 +0xd7\ngithub.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.NewQueue.func2()\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:213 +0x65\ncreated by github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.NewQueue\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:211 +0x525\n\ngoroutine 148 [select, 352 minutes]:\ngithub.com/elastic/beats/v7/libbeat/publisher/pipeline.(*eventConsumer).run(0xc00069e320)\n"
+23:12:33.688
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go:153 +0x3cf\ngithub.com/elastic/beats/v7/libbeat/publisher/pipeline.newEventConsumer.func1()\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go:90 +0x5a\ncreated by github.com/elastic/beats/v7/libbeat/publisher/pipeline.newEventConsumer\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go:88 +0x198\n\ngoroutine 149 [select, 352 minutes]:\ngithub.com/elastic/beats/v7/libbeat/publisher/queue/memqueue.(*broker).Get(0xc000658a80, 0x0)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/queue/memqueue/broker.go:236 +0xd3\ngithub.com/elastic/beats/v7/libbeat/publisher/pipeline.(*queueReader).run(0xc0003b7830, 0xc0003b7160)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/queue_reader.go:57 +0x126\ngithub.com/elastic/beats/v7/libbeat/publisher/pipeline.(*eventConsumer).run.func1()\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go:103 +0x25\ncreated by github.com/elastic/beats/v7/libbeat/publisher/pipeline.(*eventConsumer).run\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/consumer.go:102 +0x17b\n\ngoroutine 133 [syscall, 352 minutes]:\nos/signal.signal_recv()\n\truntime/sigqueue.go:151 +0x2f\nos/signal.loop()\n\tos/signal/signal_unix.go:23 +0x19\ncreated by os/signal.Notify.func1.1\n\tos/signal/signal.go:151 +0x2a\n\ngoroutine 101 [select]:\ngithub.com/elastic/apm-server/beater.adjustMaxProcs({0x55769f44d6c8, 0xc0006422c0}, 0x0?, 0x0?, 0x0?)\n\tgithub.com/elastic/apm-server/beater/beater.go:1044 +0x133\ncreated by github.com/elastic/apm-server/beater.(*beater).run\n\tgithub.com/elastic/apm-server/beater/beater.go:166 +0x14a\n\ngoroutine 102 [chan receive, 352 minutes]:\ngithub.com/elastic/apm-server/beater.(*beater).run.func2()\n\tgithub.com/elastic/apm-server/beater/beater.go:213 +0x1f\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 103 [select, 352 minutes]:\ngithub.com/elastic/apm-server/beater.(*chanReloader).serve(0xc0005f88c0, {0x55769f44d6c8, 0xc000642300}, {0x55769f433cf8, 0xc00063ebf0})\n\tgithub.com/elastic/apm-server/beater/beater.go:958 +0xfb\ngithub.com/elastic/apm-server/beater.(*beater).run.func3()\n\tgithub.com/elastic/apm-server/beater/beater.go:220 +0x99\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 104 [select, 352 minutes]:\ngoogle.golang.org/grpc.(*ccBalancerWrapper).watcher(0xc000642500)\n\tgoogle.golang.org/grpc@v1.48.0/balancer_conn_wrappers.go:112 +0x73\ncreated by google.golang.org/grpc.newCCBalancerWrapper\n\tgoogle.golang.org/grpc@v1.48.0/balancer_conn_wrappers.go:73 +0x22a\n\ngoroutine 162 [select, 352 minutes]:\ngoogle.golang.org/grpc.newClientStreamWithParams.func4()\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:355 +0x92\ncreated by google.golang.org/grpc.newClientStreamWithParams\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:354 +0xbca\n\ngoroutine 106 [semacquire, 352 minutes]:\nsync.runtime_Semacquire(0xc00069d170?)\n\truntime/sema.go:56 +0x25\nsync.(*WaitGroup).Wait(0x55769f44d6c8?)\n\tsync/waitgroup.go:136 +0x52\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip(0xc0005ba120)\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:312 +0x20f\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).startCheckin.func1()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:181 +0x6d\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).startCheckin\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:171 +0x6c\n\ngoroutine 107 [semacquire, 352 minutes]:\nsync.runtime_Semacquire(0xc000556c00?)\n\truntime/sema.go:56 +0x25\nsync.(*WaitGroup).Wait(0x55769f44d6c8?)\n\tsync/waitgroup.go:136 +0x52\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip(0xc0005ba120, 0xc000604600)\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:468 +0x245\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).startActions.func1()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:340 +0x7b\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).startActions\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:330 +0x9e\n\ngoroutine 157 [select]:\ngoogle.golang.org/grpc/internal/transport.(*controlBuffer).get(0xc00069ee60, 0x1)\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/controlbuf.go:408 +0x115\ngoogle.golang.org/grpc/internal/transport.(*loopyWriter).run(0xc000039aa0)\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/controlbuf.go:535 +0x85\ngoogle.golang.org/grpc/internal/transport.newHTTP2Client.func3()\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/http2_client.go:415 +0x65\ncreated by google.golang.org/grpc/internal/transport.newHTTP2Client\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/http2_client.go:413 +0x1eb1\n\ngoroutine 163 [select, 352 minutes]:\ngoogle.golang.org/grpc/internal/transport.(*Stream).waitOnHeader(0xc0004699e0)\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:324 +0x7c\ngoogle.golang.org/grpc/internal/transport.(*Stream).RecvCompress(...)\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:339\ngoogle.golang.org/grpc.(*csAttempt).recvMsg(0xc000578240, {0x55769f27c220?, 0xc0001e6b80}, 0x1?)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:980 +0xbe\ngoogle.golang.org/grpc.(*clientStream).RecvMsg.func1(0x1?)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:845 +0x25\ngoogle.golang.org/grpc.(*clientStream).withRetry(0xc0005ba6c0, 0xc0004a5ec8, 0xc0004a5e98)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:709 +0xd3\ngoogle.golang.org/grpc.(*clientStream).RecvMsg(0xc0005ba6c0, {0x55769f27c220?, 0xc0001e6b80?})\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:844 +0x11f\ngithub.com/elastic/elastic-agent-client/v7/pkg/proto.(*elasticAgentActionsClient).Recv(0xc00036e550)\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/proto/elastic-agent-client_grpc.pb.go:145 +0x4c\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip.func1()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:362 +0xb2\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:359 +0x17a\n\ngoroutine 52 [select, 352 minutes]:\ngoogle.golang.org/grpc.newClientStreamWithParams.func4()\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:355 +0x92\ncreated by google.golang.org/grpc.newClientStreamWithParams\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:354 +0xbca\n\ngoroutine 53 [select, 352 minutes]:\ngoogle.golang.org/grpc/internal/transport.(*recvBufferReader).readClient(0xc0004be000, {0xc0004b2118, 0x5, 0x5})\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:191 +0xa5\ngoogle.golang.org/grpc/internal/transport.(*recvBufferReader).Read(0xc0004be000, {0xc0004b2118?, 0xc0004c0000?, 0xc000a93a58?})\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:171 +0x147\ngoogle.golang.org/grpc/internal/transport.(*transportReader).Read(0xc00069d0e0, {0xc0004b2118?, 0xc000a93ad0?, 0x55769ccf1707?})\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:485 +0x32\nio.ReadAtLeast({0x55769f430fd8, 0xc00069d0e0}, {0xc0004b2118, 0x5, 0x5}, 0x5)\n\tio/io.go:331 +0x9a\nio.ReadFull(...)\n\tio/io.go:350\ngoogle.golang.org/grpc/internal/transport.(*Stream).Read(0xc000364360, {0xc0004b2118, 0x5, 0x5})\n\tgoogle.golang.org/grpc@v1.48.0/internal/transport/transport.go:469 +0xa5\ngoogle.golang.org/grpc.(*parser).recvMsg(0xc0004b2108, 0x400000)\n\tgoogle.golang.org/grpc@v1.48.0/rpc_util.go:559 +0x47\ngoogle.golang.org/grpc.recvAndDecompress(0xc0006e6ad0?, 0xc000364360, {0x0, 0x0}, 0x400000, 0x0, {0x0, 0x0})\n\tgoogle.golang.org/grpc@v1.48.0/rpc_util.go:690 +0x66\ngoogle.golang.org/grpc.recv(0xc000a93e38?, {0x7ffa626c04b8, 0x5576a0c607f0}, 0xc000a93eb8?, {0x0?, 0x0?}, {0x55769f205e40, 0xc0004be230}, 0x6?, 0x0, ...)\n\tgoogle.golang.org/grpc@v1.48.0/rpc_util.go:756 +0x6e\ngoogle.golang.org/grpc.(*csAttempt).recvMsg(0xc0006740c0, {0x55769f205e40?, 0xc0004be230}, 0x21a?)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:994 +0x2b0\ngoogle.golang.org/grpc.(*clientStream).RecvMsg.func1(0x0?)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:845 +0x25\ngoogle.golang.org/grpc.(*clientStream).withRetry(0xc0004697a0, 0xc000a93ef0, 0xc000a93ec0)\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:705 +0x2f6\ngoogle.golang.org/grpc.(*clientStream).RecvMsg(0xc0004697a0, {0x55769f205e40?, 0xc0004be230?})\n\tgoogle.golang.org/grpc@v1.48.0/stream.go:844 +0x11f\ngithub.com/elastic/elastic-agent-client/v7/pkg/proto.(*elasticAgentCheckinClient).Recv(0xc00068e070)\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/proto/elastic-agent-client_grpc.pb.go:83 +0x4c\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip.func1()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:204 +0x97\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:201 +0x15c\n\ngoroutine 164 [select, 352 minutes]:\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip.func2()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:451 +0x205\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).actionRoundTrip\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:434 +0x23a\n\ngoroutine 54 [select]:\ngithub.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip.func2()\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:247 +0x138\ncreated by github.com/elastic/elastic-agent-client/v7/pkg/client.(*client).checkinRoundTrip\n\tgithub.com/elastic/elastic-agent-client/v7@v7.0.0-20220607160924-1a71765a8bbe/pkg/client/client.go:237 +0x205\n\ngoroutine 371 [select, 352 minutes]:\ngithub.com/elastic/beats/v7/libbeat/publisher/pipeline.(*netClientWorker).run(0xc00077eaf0)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/client_worker.go:123 +0x97\ncreated by github.com/elastic/beats/v7/libbeat/publisher/pipeline.makeClientWorker\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/publisher/pipeline/client_worker.go:76 +0x2a5\n\ngoroutine 333 [semacquire, 352 minutes]:\nsync.runtime_Semacquire(0xc00076e4e0?)\n\truntime/sema.go:56 +0x25\nsync.(*WaitGroup).Wait(0xc00065fb01?)\n\tsync/waitgroup.go:136 +0x52\ngolang.org/x/sync/errgroup.(*Group).Wait(0xc0009c31c0)\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:52 +0x27\ngithub.com/elastic/apm-server/beater.(*serverRunner).run(0xc00059edc0, {0x55769f44be98, 0xc000799260})\n\tgithub.com/elastic/apm-server/beater/beater.go:584 +0xa53\ngithub.com/elastic/apm-server/beater.(*reloader).reload.func1()\n\tgithub.com/elastic/apm-server/beater/beater.go:344 +0x90\ncreated by github.com/elastic/apm-server/beater.(*reloader).reload\n\tgithub.com/elastic/apm-server/beater/beater.go:342 +0x265\n\ngoroutine 373 [IO wait]:\ninternal/poll.runtime_pollWait(0x7ffa6370dc08, 0x72)\n\truntime/netpoll.go:302 +0x89\ninternal/poll.(*pollDesc).wait(0xc0003d2500?, 0xc000530000?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\n"
+23:12:33.689
+elastic_agent
+[elastic_agent][error] apm-server stderr: "internal/poll.(*FD).Read"
+23:12:33.689
+elastic_agent
+[elastic_agent][error] apm-server stderr: "(0xc0003d2500, {0xc000530000, 0x1000, 0x1000})\n\tinternal/poll/fd_unix.go:167 +0x25a\nnet.(*netFD).Read(0xc0003d2500, {0xc000530000?, 0x7ffa653a7fff?, 0x55769c63cfbe?})\n\tnet/fd_posix.go:55 +0x29\nnet.(*conn).Read(0xc00012a1a0, {0xc000530000?, 0x203000?, 0x400?})\n\tnet/net.go:183 +0x45\nnet/http.(*connReader).Read(0xc000650150, {0xc000530000, 0x1000, 0x1000})\n\tnet/http/server.go:780 +0x16d\nbufio.(*Reader).fill(0xc000038540)\n\tbufio/bufio.go:106 +0x103\nbufio.(*Reader).ReadSlice(0xc000038540, 0x0?)\n\tbufio/bufio.go:371 +0x2f\nbufio.(*Reader).ReadLine(0xc000038540)\n\tbufio/bufio.go:400 +0x27\nnet/textproto.(*Reader).readLineSlice(0xc0005949f0)\n\tnet/textproto/reader.go:57 +0x99\n"
+23:12:33.691
+elastic_agent
+[elastic_agent][error] apm-server stderr: "net/textproto.(*Reader).ReadLine(...)\n\tnet/textproto/reader.go:38\nnet/http.readRequest(0xc00012a1a0?)\n\tnet/http/request.go:1029 +0x79\nnet/http.(*conn).readRequest(0xc00039c640, {0x55769f44d6c8, 0xc0009c26c0})\n\tnet/http/server.go:988 +0x24a\nnet/http.(*conn).serve(0xc00039c640, {0x55769f44d770, 0xc0006500f0})\n\tnet/http/server.go:1891 +0x32b\ncreated by net/http.(*Server).Serve\n\tnet/http/server.go:3071 +0x4db\n\ngoroutine 356 [running]:\n\tgoroutine running on other thread; stack unavailable\ncreated by net/http.(*Server).Serve\n\tnet/http/server.go:3071 +0x4db\n\ngoroutine 55 [select, 2 minutes]:\ngithub.com/patrickmn/go-cache.(*janitor).Run(0xc000a98030, 0x0?)\n\tgithub.com/patrickmn/go-cache@v2.1.0+incompatible/cache.go:1079 +0x85\ncreated by github.com/patrickmn/go-cache.runJanitor\n\tgithub.com/patrickmn/go-cache@v2.1.0+incompatible/cache.go:1099 +0xed\n\ngoroutine 402 [IO wait, 352 minutes]:\ninternal/poll.runtime_pollWait(0x7ffa6370ded8, 0x72)\n\truntime/netpoll.go:302 +0x89\ninternal/poll.(*pollDesc).wait(0xc0003d2280?, 0xc0002fb300?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Read(0xc0003d2280, {0xc0002fb300, 0x1270, 0x1270})\n\tinternal/poll/fd_unix.go:167 +0x25a\nnet.(*netFD).Read(0xc0003d2280, {0xc0002fb300?, 0xc0005f81e0?, 0xc0002fb305?})\n\tnet/fd_posix.go:55 +0x29\nnet.(*conn).Read(0xc000010310, {0xc0002fb300?, 0x0?, 0x0?})\n\tnet/net.go:183 +0x45\ncrypto/tls.(*atLeastReader).Read(0xc0010ff368, {0xc0002fb300?, 0x0?, 0x0?})\n\tcrypto/tls/conn.go:784 +0x3d\nbytes.(*Buffer).ReadFrom(0xc00036ccf8, {0x55769f42cdb8, 0xc0010ff368})\n\tbytes/buffer.go:204 +0x98\ncrypto/tls.(*Conn).readFromUntil(0xc00036ca80, {0x55769f431d58?, 0xc000010310}, 0x217?)\n\tcrypto/tls/conn.go:806 +0xe5\ncrypto/tls.(*Conn).readRecordOrCCS(0xc00036ca80, 0x0)\n\tcrypto/tls/conn.go:613 +0x116\ncrypto/tls.(*Conn).readRecord(...)\n\tcrypto/tls/conn.go:581\ncrypto/tls.(*Conn).Read(0xc00036ca80, {0xc000ac8000, 0x1000, 0x1?})\n\tcrypto/tls/conn.go:1284 +0x16f\nnet/http.(*persistConn).Read(0xc000364120, {0xc000ac8000?, 0xc0004bc300?, 0xc0004a9d30?})\n\tnet/http/transport.go:1929 +0x4e\nbufio.(*Reader).fill(0xc0006042a0)\n\tbufio/bufio.go:106 +0x103\nbufio.(*Reader).Peek(0xc0006042a0, 0x1)\n\tbufio/bufio.go:144 +0x5d\nnet/http.(*persistConn).readLoop(0xc000364120)\n\tnet/http/transport.go:2093 +0x1ac\ncreated by net/http.(*Transport).dialConn\n\tnet/http/transport.go:1750 +0x173e\n\ngoroutine 56 [semacquire, 352 minutes]:\nsync.runtime_Semacquire(0xc000b011e0?)\n\truntime/sema.go:56 +0x25\nsync.(*WaitGroup).Wait(0xc0008b1a08?)\n\tsync/waitgroup.go:136 +0x52\ngolang.org/x/sync/errgroup.(*Group).Wait(0xc000642a00)\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:52 +0x27\nmain.runServerWithProcessors({_, "
+23:12:33.698
+elastic_agent
+[elastic_agent][error] apm-server stderr: "_}, _, {{{0x55769e5997b5, 0xa}, {0x55769e5997b5, 0xa}, {0x55769e58f2a3, 0x5}, 0x1, ...}, ...}, ...)\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:208 +0x585\nmain.wrapRunServer.func1({_, _}, {{{0x55769e5997b5, 0xa}, {0x55769e5997b5, 0xa}, {0x55769e58f2a3, 0x5}, 0x1, {0xc0005234b0, ...}, ...}, ...})\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:217 +0xe5\ngithub.com/elastic/apm-server/beater.WrapRunServerWithProcessors.func1({_, _}, {{{0x55769e5997b5, 0xa}, {0x55769e5997b5, 0xa}, {0x55769e58f2a3, 0x5}, 0x1, {0xc0005234b0, ...}, ...}, ...})\n\tgithub.com/elastic/apm-server/beater/beater.go:913 +0x16d\ngithub.com/elastic/apm-server/beater.(*serverRunner).run.func6()\n\tgithub.com/elastic/apm-server/beater/beater.go:571 +0x246\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 57 [select]:\ngithub.com/elastic/apm-server/x-pack/apm-server/aggregation/txmetrics.(*Aggregator).Run(0xc000058400)\n\tgithub.com/elastic/apm-server/x-pack/apm-server/aggregation/txmetrics/aggregator.go:146 +0x136\nmain.runServerWithProcessors.func1()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:185 +0x55\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 58 [chan receive, 352 minutes]:\nmain.runServerWithProcessors.func2()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:193 +0x65\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 59 [select]:\ngithub.com/elastic/apm-server/x-pack/apm-server/aggregation/spanmetrics.(*Aggregator).Run(0xc0005cc070)\n\tgithub.com/elastic/apm-server/x-pack/apm-server/aggregation/spanmetrics/aggregator.go:109 +0x136\nmain.runServerWithProcessors.func1()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:185 +0x55"
+23:12:33.699
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 60 [chan receive, 352 minutes]:\nmain.runServerWithProcessors.func2()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:193 +0x65\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 61 [semacquire, 352 minutes]:\nsync.runtime_Semacquire(0xc000b01a00?)\n\truntime/sema.go:56 +0x25\nsync.(*WaitGroup).Wait(0xc000b1fa98?)\n\tsync/waitgroup.go:136 +0x52\ngolang.org/x/sync/errgroup.(*Group).Wait(0xc000738680)\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:52 +0x27\ngithub.com/elastic/apm-server/beater.server.run({0xc0003b7880, 0xc000481400, {{0x55769f42d478, 0xc000798bd0}, {0x55769f433ab8, 0xc000798bb8}, 0x6fc23ac00, 0xc00160e030, 0xc000118300}, 0xc000738280, ...}, ...)\n\tgithub.com/elastic/apm-server/beater/server.go:248 +0x425\ngithub.com/elastic/apm-server/beater.newBaseRunServer.func1({_, _}, {{{0x55769e5997b5, 0xa}, {0x55769e5997b5, 0xa}, {0x55769e58f2a3, 0x5}, 0x1, {0xc0005234b0, ...}, ...}, "
+23:12:33.701
+elastic_agent
+[elastic_agent][error] apm-server stderr: "...})\n\tgithub.com/elastic/apm-server/beater/server.go:109 +0x169\ngithub.com/elastic/apm-server/beater.WrapRunServerWithProcessors.func1({_, _}, {{{0x55769e5997b5, 0xa}, {0x55769e5997b5, 0xa}, {0x55769e58f2a3, 0x5}, 0x1, {0xc0005234b0, ...}, ...}, ...})\n\tgithub.com/elastic/apm-server/beater/beater.go:913 +0x16d\nmain.runServerWithProcessors.func3()\n\tgithub.com/elastic/apm-server/x-pack/apm-server/main.go:206 +0x63\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 386 [select]:\ngithub.com/elastic/apm-server/agentcfg.Reporter.Run({{0x55769f42d478, 0xc000798bd0}, {0x55769f433ab8, 0xc000798bb8}, 0x6fc23ac00, 0xc00160e030, 0xc000118300}, {0x55769f44d6c8?, 0xc0007385c0})\n\tgithub.com/elastic/apm-server/agentcfg/reporter.go:75 +0x232\ngithub.com/elastic/apm-server/beater.server.run.func1()\n\tgithub.com/elastic/apm-server/beater/server.go:237 +0x3d\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 387 [IO wait, 352 minutes]:\ninternal/poll.runtime_pollWait(0x7ffa6370dde8, 0x72)\n\truntime/netpoll.go:302 +0x89\ninternal/poll.(*pollDesc).wait(0xc0006efc80?, 0x0?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Accept(0xc0006efc80)\n\tinternal/poll/fd_unix.go:614 +0x22c\nnet.(*netFD).accept(0xc0006efc80)\n\tnet/fd_unix.go:172 +0x35\nnet.(*TCPListener).accept(0xc000799260)\n\tnet/tcpsock_posix.go:139 +0x28\nnet.(*TCPListener).Accept(0xc000799260)\n\tnet/tcpsock.go:288 +0x3d\nnet/http.(*Server).Serve(0xc0006520e0, {0x55769f44be98, 0xc000799260})\n\tnet/http/server.go:3039 +0x385\ngithub.com/elastic/apm-server/beater.(*httpServer).start(0xc000738280)\n\tgithub.com/elastic/apm-server/beater/http.go:108 +0x2a5\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 388 [chan receive, 352 minutes]:\ngithub.com/elastic/gmux.(*chanListener).Accept(0x55769f45ce00?)\n\tgithub.com/elastic/gmux@v0.2.0/conn.go:100 +0x28\ngoogle.golang.org/grpc.(*Server).Serve(0xc0005e21e0, {0x55769f43ec98?, 0xc001704108})\n\tgoogle.golang.org/grpc@v1.48.0/server.go:790 +0x477\ngithub.com/elastic/apm-server/beater.server.run.func2()\n\tgithub.com/elastic/apm-server/beater/server.go:240 +0x29\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 389 [chan receive, 352 minutes]:\ngithub.com/elastic/apm-server/beater.server.run.func3()\n\tgithub.com/elastic/apm-server/beater/server.go:243 +0x2e\ngolang.org/x/sync/errgroup.(*Group).Go.func1()\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:74 +0x64\ncreated by golang.org/x/sync/errgroup.(*Group).Go\n\tgolang.org/x/sync@v0.0.0-20220513210516-0976fa681c29/errgroup/errgroup.go:71 +0xa5\n\ngoroutine 403 [select, 352 minutes]:\nnet/http.(*persistConn).writeLoop(0xc000364120)\n\tnet/http/transport.go:2392 +0xf5\ncreated by net/http.(*Transport).dialConn\n\tnet/http/transport.go:1751 +0x1791\n\ngoroutine 13814 [IO wait]:\ninternal/poll.runtime_pollWait(0x7ffa6370da28, 0x72)\n\truntime/netpoll.go:302 +0x89\ninternal/poll.(*pollDesc).wait(0xc001708180?, 0xc00069c521?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Read(0xc001708180, {0xc00069c521, 0x1, 0x1})\n\tinternal/poll/fd_unix.go:167 +0x25a\nnet.(*netFD).Read(0xc001708180, {0xc00069c521?, 0xc0003ba558?, 0xc0012a7768?})\n\tnet/fd_posix.go:55 +0x29\nnet.(*conn).Read(0xc0016140b0, {0xc00069c521?, 0xc000479040?, 0xc001282ed9?})\n\tnet/net.go:183 +0x45\nnet/http.(*connReader).backgroundRead(0xc00069c510)\n\tnet/http/server.go:672 +0x3f\ncreated by net/http.(*connReader).startBackgroundRead\n\tnet/http/server.go:668 +0xca\n\ngoroutine 13694 [IO wait]:\ninternal/poll.runtime_pollWait(0x7ffa6370dcf8, 0x72)\n\truntime/netpoll.go:302 +0x89\ninternal/poll.(*pollDesc).wait(0xc0003d2300?, 0xc000554371?, 0x0)\n\tinternal/poll/fd_poll_runtime.go:83 +0x32\ninternal/poll.(*pollDesc).waitRead(...)\n\tinternal/poll/fd_poll_runtime.go:88\ninternal/poll.(*FD).Read(0xc0003d2300, {0xc000554371, 0x1, 0x1})\n\tinternal/poll/fd_unix.go:167 +0x25a\nnet.(*netFD).Read(0xc0003d2300, {0xc000554371?, 0xc0007388d8?, 0xc0012a3768?})\n\tnet/fd_posix.go:55 +0x29\nnet.(*conn).Read(0xc00012a190, {0xc000554371?, 0xc00148a320?, 0x0?})\n\tnet/net.go:183 +0x45\nnet/http.(*connReader).backgroundRead(0xc000554360)\n\tnet/http/server.go:672 +0x3f\ncreated by net/http.(*connReader).startBackgroundRead\n\tnet/http/server.go:668 +0xca\n"
+23:12:33.717
+elastic_agent
+[elastic_agent][error] apm-server stderr: "\ngoroutine 356 [running]:\nruntime.throw({0x55769e5b1b73?, 0x1?})\n\truntime/panic.go:992 +0x71 fp=0xc001560aa8 sp=0xc001560a78 pc=0x55769c5fb011\nruntime.mapassign(0x55769f063360, 0xc00079eb40, 0x55769e59665c?)\n\truntime/map.go:686 +0x4c5 fp=0xc001560b28 sp=0xc001560aa8 pc=0x55769c5d2f25\ngithub.com/elastic/elastic-agent-system-metrics/metric/system/process.(*Stats).GetSelf(_)\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/metric/system/process/process.go:137 +0x239 fp=0xc0015610b8 sp=0xc001560b28 pc=0x55769d7e6c99\ngithub.com/elastic/elastic-agent-system-metrics/report.getFDUsage(0x55769cb5a04c?)\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/report/metrics_file_descriptors.go:53 +0x58 fp=0xc0015615f8 sp=0xc0015610b8 pc=0x55769d7ef3d8\ngithub.com/elastic/elastic-agent-system-metrics/report.FDUsageReporter.func1(0xa8?, {0x55769f454598, 0xc0009b4e00})\n\tgithub.com/elastic/elastic-agent-system-metrics@v0.4.3/report/metrics_file_descriptors.go:38 +0xc5 fp=0xc0015616e8 sp=0xc0015615f8 pc=0x55769d7ef0e5\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Func).Visit(0xc001561770?, 0xc9?, {0x55769f454598?, 0xc0009b4e00?})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/metrics.go:221 +0x2e fp=0xc001561710 sp=0xc0015616e8 pc=0x55769cb5864e\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).doVisit(0xc000113f80, 0x1, {0x55769f454598, 0xc0009b4e00})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:83 +0x1c3 fp=0xc0015617f0 sp=0xc001561710 pc=0x55769cb5a023\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).Visit(0xc001561880?, 0xa9?, {0x55769f454598?, 0xc0009b4e00?})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:65 +0x25 fp=0xc001561820 sp=0xc0015617f0 pc=0x55769cb59e25\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).doVisit(0xc000112740, 0x1, {0x55769f454598, 0xc0009b4e00})\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:83 +0x1c3 fp=0xc001561900 sp=0xc001561820 pc=0x55769cb5a023\ngithub.com/elastic/elastic-agent-libs/monitoring.(*Registry).Visit(...)\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/registry.go:65\ngithub.com/elastic/elastic-agent-libs/monitoring.CollectStructSnapshot(0xc000152520?, 0xb0?, 0x0)\n\tgithub.com/elastic/elastic-agent-libs@v0.2.9/monitoring/snapshot.go:89 +0xcc fp=0xc0015619c8 sp=0xc001561900 pc=0x55769cb5ba4c\ngithub.com/elastic/beats/v7/libbeat/api.makeAPIHandler.func1({0x55769f44c0a8, 0xc000db4700}, 0xc000a3ac00)\n\tgithub.com/elastic/beats/v7@v7.0.0-alpha2.0.20220722214259-1755b5dd3127/libbeat/api/routes.go:74 +0xde fp=0xc001561a20 sp=0xc0015619c8 pc=0x55769d64227e\nnet/http.HandlerFunc.ServeHTTP(0x7ffa6370da28?, {0x55769f44c0a8?, 0xc000db4700?}, 0x55769c5d0ec5?)\n\tnet/http/server.go:2084 +0x2f fp=0xc001561a48 sp=0xc001561a20 pc=0x55769ca140af\nnet/http.(*ServeMux).ServeHTTP(0x0?, {0x55769f44c0a8, 0xc000db4700}, 0xc000a3ac00)\n\tnet/http/server.go:2462 +0x149 fp=0xc001561a98 sp=0xc001561a48 pc=0x55769ca15dc9\nnet/http.serverHandler.ServeHTTP({0xc00069c510?}, {0x55769f44c0a8, 0xc000db4700}, 0xc000a3ac00)\n\tnet/http/server.go:2916 +0x43b fp=0xc001561b58 sp=0xc001561a98 pc=0x55769ca17a9b\nnet/http.(*conn).serve(0xc0002a4000, {0x55769f44d770, 0xc0006500f0})\n\tnet/http/server.go:1966 +0x5d7 fp=0xc001561fb8 sp=0xc001561b58 pc=0x55769ca12b57\nnet/http.(*Server).Serve.func3()\n\tnet/http/server.go:3071 +0x2e fp=0xc001561fe0 sp=0xc001561fb8 pc=0x55769ca184ce\nruntime.goexit()\n\truntime/asm_amd64.s:1571 +0x1 fp=0xc001561fe8 sp=0xc001561fe0 pc=0x55769c62fa01\ncreated by net/http.(*Server).Serve\n\tnet/http/server.go:3071 +0x4db\n"
+23:13:32.292
+elastic_agent
+[elastic_agent][warn] Elastic Agent status changed to: 'degraded'
+23:13:32.292
+elastic_agent
+[elastic_agent][info] 2022-10-19T23:13:32+08:00 - message: Application: apm-server--8.3.3[eb93f483-bba1-451e-9706-754d7cf85262]: State changed to DEGRADED: Missed last check-in - type: 'STATE' - sub_type: 'RUNNING'
+23:14:32.301
+elastic_agent
+[elastic_agent][error] Elastic Agent status changed to: 'error'
+23:14:32.301
+elastic_agent
+[elastic_agent][error] 2022-10-19T23:14:32+08:00 - message: Application: apm-server--8.3.3[eb93f483-bba1-451e-9706-754d7cf85262]: State changed to FAILED: Missed two check-ins - type: 'ERROR' - sub_type: 'FAILED'
+Showing entries until Oct 19, 23:14:32
